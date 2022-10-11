@@ -835,30 +835,6 @@ a:hover .title span {
     background: none;
 }
 
-/* под списком кол-во просмотреных прочитанных и т.д. */
-.b-stats_bar .stat_names .stat_name a,
-.b-stats_bar .stat_names .stat_name .size:before,
-.b-stats_bar .stat_names .stat_name .size:after {
-    color: rgba(var(--dark-color), 1);
-}
-
-/* под списком кол-во просмотреных прочитанных и т.д. */
-.b-stats_bar .stat_names .stat_name a:hover {
-    color: rgba(var(--hover-color), 1);
-}
-
-.b-animes-menu .total-rates {
-    color: rgba(var(--dark-color), 1);
-}
-
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
-    color: rgba(var(--bright-color), 1);
-}
-
-.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a:hover {
-    color: rgba(var(--hover-color), 1);
-}
-
 .b-shiki_editor .body .editor textarea,
 .b-input input[disabled],
 .b-input input[type="submit"],
